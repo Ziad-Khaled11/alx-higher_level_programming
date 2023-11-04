@@ -5,6 +5,8 @@ if number > 0:
     last = number % 10
 elif number < 0:
     last = number % -10
+else:
+    last = 0
 if last == 0:
     print("Last digit of {} is {} and is {}".format(number, last, last))
 elif last > 5:
