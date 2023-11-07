@@ -6,9 +6,9 @@ def print_matrix_integer(matrix=[[]]):
             i = 0
             for element in row:
                 if i != cols - 1:
-                    print("{}".format(element), end=" ")
+                    print("{:d}".format(element), end=" ")
                 else:
-                    print("{}".format(element), end="")
+                    print("{:d}".format(element), end="")
                 i += 1
             print()
     else:
