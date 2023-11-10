@@ -8,3 +8,5 @@ def weight_average(my_list=[]):
             quot += i[1]
         averge = Sum / quot
         return averge
+    else:
+        return 0
