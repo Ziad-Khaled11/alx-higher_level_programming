@@ -8,7 +8,7 @@ def read_file(filename=""):
     """
     Function Reads from a file
     """
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding="utf-8") as f:
         line = f.readline()
         while line:
             print(line.strip())
