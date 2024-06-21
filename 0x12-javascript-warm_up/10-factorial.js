@@ -11,4 +11,4 @@ function factorial (arg) {
   }
 }
 
-factorial(Number(process.argv[2]));
+console.log(factorial(Number(process.argv[2])));
